@@ -4,13 +4,15 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "start": "node server.js"
   },
   "dependencies": {
     "@deveodk/vue-toastr": "^1.1.0",
     "@ionic/vue": "0.0.4",
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
+    "express": "^4.17.1",
     "toastr": "^2.1.4",
     "vue": "^2.6.11",
     "vue-axios": "^2.1.5",
