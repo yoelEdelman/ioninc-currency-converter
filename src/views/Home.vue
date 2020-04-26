@@ -1,18 +1,27 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" class="logo" src="../assets/logo.svg">
+    <CurrencyForm></CurrencyForm>
+
   </div>
 </template>
 
+<style>
+  .logo{
+    max-width: 50%;
+  }
+</style>
+
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import CurrencyForm from '@/components/CurrencyForm.vue'
+
+
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    CurrencyForm,
   }
 }
 </script>
